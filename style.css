@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.navbar{
+    width:80%;
+    margin: auto;
+    display: flex;
+    padding: .5rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+ul>li{ 
+    display: flex;
+    display: inline-block;
+    margin: .5rem;
+}
+
+.logo{
+    display: flex;
+    width: 25%;
+    align-items: center;
+}
+.list{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.login{
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.butt-nav{
+    padding: .5rem;
+    border: solid 1px black;
+    border-radius: 2rem;
+}
+
+.container-article-head{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.article-head{
+    width: 65%;
+    text-align: center;
+    font-weight: bold;
+    align-items:center;
+}
+.title-head{
+    margin-bottom: 2rem;
+
+}
+.butt-head{
+    margin-top: 1rem;
+    border: solid 1px black;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.container-one{
+    width: 80% ;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center; 
+    align-items: center;
+}
+
+.container-two{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container-three{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    
+}
+.article{
+    max-width: 40%;
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+ .article>h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+ }
+ .article>p{
+    font-weight: bolder;
+ }
+ 
+ .last-article{
+    height:500px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .immagine{
+    max-width: 400px;
+    display: flex;
+ }
+
+ footer{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+ }
+
+ .container-footer{
+    width: 75%;
+    display: flex;
+ }
+
+.link-social{
+    width: 30%;
+    background-color: orange;
+    display: flex;
+}
+
+ .link{
+    width: calc(100%/4);
+    display: flex;
+    background-color: aqua;
+ }
