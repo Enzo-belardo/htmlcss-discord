@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Cabin', sans-serif;
+}
 header{
     background-image: url(./img/jumbo.png);
     background-repeat: no-repeat;
@@ -69,7 +72,6 @@ ul>li{
 }
 .butt-download::before{
     content: "\1F817";
-
  }
 
 .butt{
@@ -85,7 +87,6 @@ ul>li{
 }
 
 .container-one{
-    width: 80% ;
     margin: auto;
     height: 500px;
     display: flex;
@@ -96,8 +97,8 @@ ul>li{
 }
 
 .container-two{
-    width: 80%;
     height: 500px;
+    background-color: lightgray;
     margin: auto;
     display: flex;
     align-items: center;
@@ -105,7 +106,6 @@ ul>li{
     
 }
 .container-three{
-    width: 80%;
     height: 500px;
     margin: auto;
     display: flex;
@@ -115,11 +115,11 @@ ul>li{
 }
 
 .article{
-    max-width: 40%;
-    min-height: 50%;
+    max-width: 30%;
+    max-height: 500px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: flex-start;
  }
 
  .article>h1{
@@ -131,14 +131,10 @@ ul>li{
  }
 
  .immagine{
-    max-width: 500px;
+    width: 500px;
     display: flex;
  }
 
- .background{
-    
-    
- }
  .container-last-article{
     height: 800px;
     display: flex;
@@ -147,7 +143,7 @@ ul>li{
     flex-direction: column;
  }
  .last-article{
-    width: 75%;
+    width: 60%;
     text-align: center;
     flex-direction: column;
  }
