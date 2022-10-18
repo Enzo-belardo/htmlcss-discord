@@ -10,7 +10,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1rem;
 }
 
 .navbar{
@@ -113,8 +112,8 @@ ul>li{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    
 }
+
 .article{
     max-width: 40%;
     min-height: 50%;
@@ -122,6 +121,7 @@ ul>li{
     flex-direction: column;
     align-items: flex-start;
  }
+
  .article>h1{
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -129,17 +129,52 @@ ul>li{
  .article>p{
     font-weight: bolder;
  }
- 
- .last-article{
-    height:500px;
-    background-color: lightgray;
+
+ .immagine{
+    max-width: 500px;
+    display: flex;
+ }
+
+ .background{
+    
+    
+ }
+ .container-last-article{
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
  }
- .immagine{
-    max-width: 400px;
+ .last-article{
+    width: 75%;
+    text-align: center;
+    flex-direction: column;
+ }
+ .last-article>h1{
+    margin-bottom: 1rem;
+ }
+
+ .container-big-image{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .immagine-big{
+    display: flex;
+    justify-content: center;
+ }
+ .container-last-butt{
+    text-align: center;
+ }
+ .last-butt{
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: blue;
+    color: white;
+    padding: .5rem;
+    margin-top: 2rem;
  }
 
  footer{
