@@ -53,14 +53,13 @@ ul>li{
 }
 
 .container-article-head{
-    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 400px;
 }
 .article-head{
-    width: 65%;
+    width: 50%;
     text-align: center;
     font-weight: bold;
     align-items:center;
@@ -69,11 +68,21 @@ ul>li{
     margin-bottom: 2rem;
 
 }
-.butt-head{
+.butt-download::before{
+    content: "\1F817";
+
+ }
+
+.butt{
     margin-top: 1rem;
     border: solid 1px black;
     border-radius: 2rem;
     padding: 1rem;
+    margin: 1rem;
+}
+.butt-black{
+    background-color: black;
+    color: white;
 }
 
 .container-one{
